@@ -41,7 +41,16 @@ note: The 'make install' is required to be run as root to get a properly install
 
 {% include asciicast.html source='install-singularity.js' title='Install Singularity' author='vsochat@stanford.edu' %}
 
+### Option 3: Using the Singularity-Builder repository
 
+[https://github.com/singularityware/singularity-builder](url)
+
+To download the builder code, you should use Git and do the following:
+
+```bash
+cd /tmp
+git clone https://github.com/singularityware/singularity-builder
+```
 ### Updating
 
 To update your Singularity version, you might want to first delete the executables for the old version:
