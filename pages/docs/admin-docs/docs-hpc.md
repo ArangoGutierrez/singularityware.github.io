@@ -94,4 +94,5 @@ Process 19 exiting
 ```
 
 ### Notes
-Supported Open MPI Version(s): To achieve proper container'ized Open MPI support, you must use Open MPI version 2.1 which at the time of this writing has not been released yet. The above example builds from the current master development branch of Open MPI.
+ - Supported Open MPI Version(s): To achieve proper container'ized Open MPI support, you must use Open MPI version 2.1 which at the time of this writing has not been released yet. The above example builds from the current master development branch of Open MPI.
+ - On the `make install` step, `/home` should be substituted to the base directory on your host if different.
